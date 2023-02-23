@@ -23,6 +23,14 @@ elif (clock >= 300) and (clock < 1000):
 else: (clock <= 1000)
 print("Herald")
 
+b = 1
+while b<=10:
+    print(b)
+    b=b+1
+
+for frend in frends:
+    print(frend)
+
 
 
 
