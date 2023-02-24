@@ -31,6 +31,8 @@ while b<=10:
 for frend in frends:
     print(frend)
 
-
-
+a = 'TEST'
+b = 'E'
+if b in a:
+    print('pass')
 
