@@ -3,14 +3,14 @@ userName = 'Vitaliy'
 userAge = 23
 user = [userName,userAge]
 print (user)
-frends = ['Vitiy','Zahar','Ernest', 'Slavik']
+frends = ['Vitiy','Zahar','Ernest']
 print(frends)
 
-dict = {"Vitiy": "Developed", "Zahar": "Beatuful", "Ernest": "Sensai", "Slavik": "Stylish"}
+dict = {"Vitiy": "Developed", "Zahar": "Beatuful", "Ernest": "Sensai"}
 for a in dict.items():
     print(a)
 
-City = {"Krasnodar","Mihoz", "Spain", "Mihoz"}
+City = {"Mihoz", "Spain", "Mihoz"}
 print(City)
 
 print(frends[1])
@@ -34,6 +34,8 @@ while c < 3:
 for frend in frends:
     print(frend)
 
+for k in range(6):
+    print(k)
 a = 'TEST'
 b = 'E'
 if b in a:
