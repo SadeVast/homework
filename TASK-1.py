@@ -1,8 +1,6 @@
 #task-1
 userName = 'Vitaliy'
 userAge = 23
-user = [userName,userAge]
-print (user)
 frends = ['Vitiy','Zahar','Ernest']
 print(frends)
 
