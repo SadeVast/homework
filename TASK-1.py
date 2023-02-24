@@ -1,6 +1,6 @@
 #task-1
 userName = 'Vitaliy'
-userAge = 22+1
+userAge = 23
 user = [userName,userAge]
 print (user)
 frends = ['Vitiy','Zahar','Ernest', 'Slavik']
@@ -10,23 +10,26 @@ dict = {"Vitiy": "Developed", "Zahar": "Beatuful", "Ernest": "Sensai", "Slavik":
 for a in dict.items():
     print(a)
 
-City = set({"Krasnodar","Mihoz", "Spain", "Mihoz"})
+City = {"Krasnodar","Mihoz", "Spain", "Mihoz"}
 print(City)
 
+print(frends[1])
+
 clock = int(input("How many hours are in dota 2?"))
-if (clock >=1000):
+if (clock <=100):
     print("Archon")
 elif (clock >= 100) and (clock < 300):
     print("Crusader")
-elif (clock >= 300) and (clock < 1000):
+elif (clock >= 300) and (clock <1000):
     print("Guardian")
-else: (clock <= 1000)
-print("Herald")
+else:
+    print("Herald")
 
-b = 1
-while b<=10:
-    print(b)
-    b=b+1
+c = 1
+while c < 3:
+    print("ok")
+    c += 2
+
 
 for frend in frends:
     print(frend)
