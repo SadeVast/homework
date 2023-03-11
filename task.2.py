@@ -4,15 +4,15 @@ print(cloak)
 
 print(f'Сколько времени?{cloak}')
 
-with open('text.txt', 'w') as f:
-    print(f.write('hello_world'))
+with open('Test.txt') as f:
+    print(f.read())
 def calculator (a,b):
     return (a+b)
 print(calculator(1, 3))
 
-def total (*numbers):
-    print(1,2,32,412,412,532,)
-print(total())
+def total (*numbers, **dictionary):
+    print(numbers)
+    print(dictionary)
 
 
 x = 1
@@ -22,3 +22,5 @@ def number ():
     print(x)
 number()
 
+if __name__=='__main__':
+    total(555,666, sec_1=456, sec_2 = 789)
