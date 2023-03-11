@@ -1,7 +1,7 @@
 # Empty Dockerfile
 
-FROM alpine:latest
+FROM python:latest
 
-COPY task_1.py .
+COPY TASK-1.py .
 
-CMD ['python', 'task_1.py']
+CMD ["python", "TASK-1.py"]
